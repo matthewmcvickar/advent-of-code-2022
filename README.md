@@ -10,18 +10,18 @@ stressful responsibility for myself.
 ## Days and Their Solutions
 
 Each day's challenge is two parts, and the reward is a star for each. I've
-marked how many stars I got for each challenge next to the day title.
+marked how I did on each challenge next to the day title. Here's a little key:
 
-Here's a little key:
-
-- ⭐️ = solved challenge
-- 👎 = tried, couldn't solve challenge
-- 🚫 = didn't try challenge
+| Symbol | Meaning                         |
+| ------ | ------------------------------- |
+| ⭐️     | solved challenge                |
+| 👎     | tried, couldn't solve challenge |
+| 🚫     | didn't try challenge            |
 
 The code beneath each day title can be run in a terminal to show the solution
 for that day.
 
-- **Day 01:** [challenge](https://adventofcode.com/2022/day/1) • [solution](./day-01/) • ⭐️⭐️
+- **Day 01:** [challenge](https://adventofcode.com/2022/day/1) • [solution](./day-01/) • ⭐️ ⭐️
 
   ```sh
   php ./day-01/1.php && php ./day-01/2.php
