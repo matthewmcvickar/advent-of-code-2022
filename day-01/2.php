@@ -6,7 +6,7 @@
  */
 
 // Read the text file of elf calories.
-$elves = file_get_contents( 'day1.txt' );
+$elves = file_get_contents( __DIR__ . '/input.txt' );
 
 // Split it into an array of elves by looking for two newlines.
 $elves = explode( "\n\n", $elves );
