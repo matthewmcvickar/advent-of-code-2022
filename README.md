@@ -17,10 +17,10 @@ marked how many stars I got for each challenge next to the day title.
 The code beneath each day title can be run in a terminal to show the solution
 for that day.
 
-- [Day 01](./day-01/) ⭐️⭐️
+- **[Day 01](./day-01/)** ⭐️⭐️
 
   ```sh
-  php ./day-01/1.php
+  php ./day-01/1.php && php ./day-01/2.php
   ```
 
 - Day 02

@@ -5,6 +5,8 @@
  * https://adventofcode.com/2022/day/1
  */
 
+echo "Calculating... 🦌 🦌 🦌 🦌 \n";
+
 // Read the text file of elf calories.
 $elves = file_get_contents( __DIR__ . '/input.txt' );
 
