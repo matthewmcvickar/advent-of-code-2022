@@ -11,11 +11,18 @@ echo "Calculating... 🪨 📄 ✂️ \n";
 $rounds = file_get_contents( __DIR__ . '/input.txt' );
 $rounds = explode( "\n", $rounds );
 
+// Use variables to avoid problems, like, I don't know, for instance you could
+// get stuck for a while because you write 'scissor' in one place and 'scissors'
+// in another place. 🤦🏻‍♂️
+$rock     = '🪨';
+$paper    = '📄';
+$scissors = '✂️';
+
 // Establish symbol definitions.
 $choices = array(
-  'A' => 'rock',
-  'B' => 'paper',
-  'C' => 'scissors',
+  'A' => $rock,
+  'B' => $paper,
+  'C' => $scissors,
 );
 
 $outcomes = array(
@@ -26,9 +33,9 @@ $outcomes = array(
 
 // Establish points.
 $choice_points = array(
-  'rock'     => 1,
-  'paper'    => 2,
-  'scissors' => 3,
+  $rock     => 1,
+  $paper    => 2,
+  $scissors => 3,
 );
 
 $outcome_points = array(
@@ -39,20 +46,20 @@ $outcome_points = array(
 
 // Establish game logic.
 $logic = array(
-  'rock' => array(
-    'lose' => 'scissors',
-    'draw' => 'rock',
-    'win'  => 'paper',
+  $rock => array(
+    'lose' => $scissors,
+    'draw' => $rock,
+    'win'  => $paper,
   ),
-  'paper' => array(
-    'lose' => 'rock',
-    'draw' => 'paper',
-    'win'  => 'scissors',
+  $paper => array(
+    'lose' => $rock,
+    'draw' => $paper,
+    'win'  => $scissors,
   ),
-  'scissors' => array(
-    'lose' => 'paper',
-    'draw' => 'scissors',
-    'win'  => 'rock',
+  $scissors => array(
+    'lose' => $paper,
+    'draw' => $scissors,
+    'win'  => $rock,
   ),
 );
 
