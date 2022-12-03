@@ -21,8 +21,14 @@ marked how I did on each challenge next to the day title. Here's a little key:
 The code beneath each day title can be run in a terminal to show the solution
 for that day.
 
-- **Day 01:** [challenge](https://adventofcode.com/2022/day/1) • [solution](./day-01/) • ⭐️ ⭐️
+- **Day 01:** [challenges](https://adventofcode.com/2022/day/1) • [solutions](./day-01/) • ⭐️ ⭐️
 
   ```sh
   php ./day-01/1.php && php ./day-01/2.php
+  ```
+
+- **Day 02:** [challenges](https://adventofcode.com/2022/day/2) • [solutions](./day-02/) • ⭐️ ⭐️
+
+  ```sh
+  php ./day-02/1.php && php ./day-02/2.php
   ```
